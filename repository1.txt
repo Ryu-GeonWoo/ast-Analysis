@@ -1,0 +1,4 @@
+https://github.com/public-apis/public-apis
+https://github.com/donnemartin/system-design-primer
+https://github.com/vinta/awesome-python
+https://github.com/datadesk/latimes-calculate

@@ -1,0 +1,14 @@
+{
+    ".": [
+        "create_db.py"
+    ],
+    "project": [
+        "project/app.py",
+        "project/models.py",
+        "project/__init__.py"
+    ],
+    "tests": [
+        "tests/app_test.py",
+        "tests/__init__.py"
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    ".": [
+        "setup.py"
+    ],
+    "docs": [
+        "docs/conf.py"
+    ],
+    "jwt": [
+        "jwt/algorithms.py",
+        "jwt/api_jwk.py",
+        "jwt/api_jws.py",
+        "jwt/api_jwt.py",
+        "jwt/exceptions.py",
+        "jwt/help.py",
+        "jwt/jwks_client.py",
+        "jwt/jwk_set_cache.py",
+        "jwt/types.py",
+        "jwt/utils.py",
+        "jwt/warnings.py",
+        "jwt/__init__.py"
+    ],
+    "tests": [
+        "tests/test_advisory.py",
+        "tests/test_algorithms.py",
+        "tests/test_api_jwk.py",
+        "tests/test_api_jws.py",
+        "tests/test_api_jwt.py",
+        "tests/test_compressed_jwt.py",
+        "tests/test_exceptions.py",
+        "tests/test_jwks_client.py",
+        "tests/test_jwt.py",
+        "tests/test_utils.py",
+        "tests/utils.py",
+        "tests/__init__.py"
+    ],
+    "tests/keys": [
+        "tests/keys/__init__.py"
+    ]
+}

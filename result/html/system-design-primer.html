@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이슈 테이블</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column; /* 수직으로 정렬하도록 수정 */
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px; /* h1 아래 여백 추가 */
+        }
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin-top: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 50px;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 12px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #746565;
+        }
+        /* 심각도에 따라 다른 색상을 적용하는 예제 */
+        .high {
+            color: white;
+            background-color: rgba(231, 76, 60, 0.8); /* 빨간색 배경 - 80% 투명도 */
+        }
+        .medium {
+            color: white;
+            background-color: rgba(243, 156, 18, 0.8); /* 주황색 배경 - 80% 투명도 */
+        }
+        .low {
+            color: white;
+            background-color: rgba(46, 204, 113, 0.8); /* 초록색 배경 - 80% 투명도 */
+        }
+         /* 필터 입력란 스타일 */
+         label {
+            margin-right: 5px;
+        }
+        #filter {
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>이슈 테이블</h1>
+
+<!-- 필터 입력란 -->
+<label for="filter">취약점 : 
+<input type="text" id="filter" onkeyup="filterTable()" placeholder="취약점으로 필터링">
+</label>
+<!-- 이슈를 표시하는 테이블 -->
+<table id="issue-table">
+    <thead>
+        <tr>
+            <th>코드 경로</th>
+            <th>코드 이름</th>
+            <th>취약점</th>
+            <th>라인</th>
+            <th>심각도</th>
+            <th>내용</th>
+            <th>URL</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+            
+            <tr class="high">
+                <td>clone_repo/system-design-primer\solutions\object_oriented_design\lru_cache\lru_cache.py</td>
+                <td>lru_cache.py</td>
+                <td>Cwe 020</td>
+                <td>40, 54</td>
+                <td>High</td>
+                <td>Potential misuse of user input without validation</td>
+                <td><a href="https://cwe.mitre.org/data/definitions/20.html" target="_blank">https://cwe.mitre.org/data/definitions/20.html</a></td>
+            </tr>
+            
+        
+            
+            <tr class="high">
+                <td>clone_repo/system-design-primer\solutions\system_design\query_cache\query_cache_snippets.py</td>
+                <td>query_cache_snippets.py</td>
+                <td>Cwe 020</td>
+                <td>21, 88</td>
+                <td>High</td>
+                <td>Potential misuse of user input without validation</td>
+                <td><a href="https://cwe.mitre.org/data/definitions/20.html" target="_blank">https://cwe.mitre.org/data/definitions/20.html</a></td>
+            </tr>
+            
+        
+    </tbody>
+</table>
+
+
+<script>
+    // JavaScript 코드는 여기에 그대로 복사해주세요.
+    function filterTable() {
+        var input, filter, table, tr, td, i, txtValue;
+        input = document.getElementById("filter");
+        filter = input.value.toUpperCase();
+        table = document.getElementById("issue-table");
+        tr = table.getElementsByTagName("tr");
+    
+        for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[2]; // 2번째 열은 '취약점'
+            if (td) {
+                txtValue = td.textContent || td.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                } else {
+                    tr[i].style.display = "none";
+                }
+            }
+        }
+    }
+    </script>
+</body>
+</html>

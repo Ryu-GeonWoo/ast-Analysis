@@ -1,0 +1,12 @@
+{
+    "scripts\\tests": [
+        "scripts\\tests\\test_validate_format.py",
+        "scripts\\tests\\test_validate_links.py",
+        "scripts\\tests\\__init__.py"
+    ],
+    "scripts\\validate": [
+        "scripts\\validate\\format.py",
+        "scripts\\validate\\links.py",
+        "scripts\\validate\\__init__.py"
+    ]
+}

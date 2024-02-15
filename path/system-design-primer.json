@@ -1,0 +1,52 @@
+{
+    "solutions\\object_oriented_design\\call_center": [
+        "solutions\\object_oriented_design\\call_center\\call_center.py",
+        "solutions\\object_oriented_design\\call_center\\__init__.py"
+    ],
+    "solutions\\object_oriented_design\\deck_of_cards": [
+        "solutions\\object_oriented_design\\deck_of_cards\\deck_of_cards.py",
+        "solutions\\object_oriented_design\\deck_of_cards\\__init__.py"
+    ],
+    "solutions\\object_oriented_design\\hash_table": [
+        "solutions\\object_oriented_design\\hash_table\\hash_map.py",
+        "solutions\\object_oriented_design\\hash_table\\__init__.py"
+    ],
+    "solutions\\object_oriented_design\\lru_cache": [
+        "solutions\\object_oriented_design\\lru_cache\\lru_cache.py",
+        "solutions\\object_oriented_design\\lru_cache\\__init__.py"
+    ],
+    "solutions\\object_oriented_design\\online_chat": [
+        "solutions\\object_oriented_design\\online_chat\\online_chat.py",
+        "solutions\\object_oriented_design\\online_chat\\__init__.py"
+    ],
+    "solutions\\object_oriented_design\\parking_lot": [
+        "solutions\\object_oriented_design\\parking_lot\\parking_lot.py",
+        "solutions\\object_oriented_design\\parking_lot\\__init__.py"
+    ],
+    "solutions\\system_design\\mint": [
+        "solutions\\system_design\\mint\\mint_mapreduce.py",
+        "solutions\\system_design\\mint\\mint_snippets.py",
+        "solutions\\system_design\\mint\\__init__.py"
+    ],
+    "solutions\\system_design\\pastebin": [
+        "solutions\\system_design\\pastebin\\pastebin.py",
+        "solutions\\system_design\\pastebin\\__init__.py"
+    ],
+    "solutions\\system_design\\query_cache": [
+        "solutions\\system_design\\query_cache\\query_cache_snippets.py",
+        "solutions\\system_design\\query_cache\\__init__.py"
+    ],
+    "solutions\\system_design\\sales_rank": [
+        "solutions\\system_design\\sales_rank\\sales_rank_mapreduce.py",
+        "solutions\\system_design\\sales_rank\\__init__.py"
+    ],
+    "solutions\\system_design\\social_graph": [
+        "solutions\\system_design\\social_graph\\social_graph_snippets.py",
+        "solutions\\system_design\\social_graph\\__init__.py"
+    ],
+    "solutions\\system_design\\web_crawler": [
+        "solutions\\system_design\\web_crawler\\web_crawler_mapreduce.py",
+        "solutions\\system_design\\web_crawler\\web_crawler_snippets.py",
+        "solutions\\system_design\\web_crawler\\__init__.py"
+    ]
+}

@@ -1,0 +1,130 @@
+{
+    "repo_path": "clone_repo/pyjwt",
+    "code": {
+        "jwt/algorithms.py": {
+            "code_path": "clone_repo/pyjwt/jwt/algorithms.py",
+            "code_name": "algorithms.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "414, 704, 706",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 476",
+                    "line": "612, 833",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "jwt/api_jwk.py": {
+            "code_path": "clone_repo/pyjwt/jwt/api_jwk.py",
+            "code_name": "api_jwk.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "99",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "jwt/api_jws.py": {
+            "code_path": "clone_repo/pyjwt/jwt/api_jws.py",
+            "code_name": "api_jws.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "140, 313",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 476",
+                    "line": "120, 124",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "jwt/utils.py": {
+            "code_path": "clone_repo/pyjwt/jwt/utils.py",
+            "code_name": "utils.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "13",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "tests/test_api_jws.py": {
+            "code_path": "clone_repo/pyjwt/tests/test_api_jws.py",
+            "code_name": "test_api_jws.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "26",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                },
+                {
+                    "function_name": "Cwe 798",
+                    "line": "90, 99, 107, 117, 147, 394, 401, 409, 735, 743, 786, 803",
+                    "severity": "HIGH",
+                    "content": "CWE-259 : Potential hardcoded credential detected.",
+                    "url": "https://cwe.mitre.org/data/definitions/798.html"
+                }
+            ]
+        },
+        "tests/test_api_jwt.py": {
+            "code_path": "clone_repo/pyjwt/tests/test_api_jwt.py",
+            "code_name": "test_api_jwt.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 798",
+                    "line": "97, 111, 125, 144, 223, 231, 258, 325, 333, 341, 353, 365, 382, 647, 667, 682, 694, 700, 718, 724, 733, 742, 766, 792, 808",
+                    "severity": "HIGH",
+                    "content": "CWE-259 : Potential hardcoded credential detected.",
+                    "url": "https://cwe.mitre.org/data/definitions/798.html"
+                }
+            ]
+        },
+        "tests/test_jwt.py": {
+            "code_path": "clone_repo/pyjwt/tests/test_jwt.py",
+            "code_name": "test_jwt.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 798",
+                    "line": "15",
+                    "severity": "HIGH",
+                    "content": "CWE-259 : Potential hardcoded credential detected.",
+                    "url": "https://cwe.mitre.org/data/definitions/798.html"
+                }
+            ]
+        },
+        "tests/keys/__init__.py": {
+            "code_path": "clone_repo/pyjwt/tests/keys/__init__.py",
+            "code_name": "__init__.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "10",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        }
+    }
+}

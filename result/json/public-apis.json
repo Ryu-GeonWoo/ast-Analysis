@@ -1,0 +1,25 @@
+{
+    "repo_path": "clone_repo/public-apis",
+    "code": {
+        "scripts\\validate\\links.py": {
+            "code_path": "clone_repo/public-apis\\scripts\\validate\\links.py",
+            "code_name": "links.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "174",
+                    "severity": "High",
+                    "content": "Potential misuse of user input without validation",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 476",
+                    "line": "167",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        }
+    }
+}

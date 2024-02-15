@@ -1,0 +1,2826 @@
+{
+    "repo_path": "clone_repo/pandas",
+    "code": {
+        "setup.py": {
+            "code_path": "clone_repo/pandas/setup.py",
+            "code_name": "setup.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "234",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 476",
+                    "line": "346, 367",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                },
+                {
+                    "function_name": "Cwe 703",
+                    "line": "172, 177",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "asv_bench/benchmarks/algorithms.py": {
+            "code_path": "clone_repo/pandas/asv_bench/benchmarks/algorithms.py",
+            "code_name": "algorithms.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "12",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "asv_bench/benchmarks/arithmetic.py": {
+            "code_path": "clone_repo/pandas/asv_bench/benchmarks/arithmetic.py",
+            "code_name": "arithmetic.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "25",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "asv_bench/benchmarks/categoricals.py": {
+            "code_path": "clone_repo/pandas/asv_bench/benchmarks/categoricals.py",
+            "code_name": "categoricals.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "15",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "asv_bench/benchmarks/dtypes.py": {
+            "code_path": "clone_repo/pandas/asv_bench/benchmarks/dtypes.py",
+            "code_name": "dtypes.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "51",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "asv_bench/benchmarks/pandas_vb_common.py": {
+            "code_path": "clone_repo/pandas/asv_bench/benchmarks/pandas_vb_common.py",
+            "code_name": "pandas_vb_common.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "14, 77",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "asv_bench/benchmarks/io/csv.py": {
+            "code_path": "clone_repo/pandas/asv_bench/benchmarks/io/csv.py",
+            "code_name": "csv.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "485, 550, 582",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "asv_bench/benchmarks/io/parsers.py": {
+            "code_path": "clone_repo/pandas/asv_bench/benchmarks/io/parsers.py",
+            "code_name": "parsers.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "10",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "asv_bench/benchmarks/tslibs/offsets.py": {
+            "code_path": "clone_repo/pandas/asv_bench/benchmarks/tslibs/offsets.py",
+            "code_name": "offsets.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "14",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "doc/source/conf.py": {
+            "code_path": "clone_repo/pandas/doc/source/conf.py",
+            "code_name": "conf.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "233, 235",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 476",
+                    "line": "96",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "doc/sphinxext/announce.py": {
+            "code_path": "clone_repo/pandas/doc/sphinxext/announce.py",
+            "code_name": "announce.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "62",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "doc/sphinxext/contributors.py": {
+            "code_path": "clone_repo/pandas/doc/sphinxext/contributors.py",
+            "code_name": "contributors.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 117",
+                    "line": "35",
+                    "severity": "High",
+                    "content": "Potential Log Injection detected",
+                    "url": "https://cwe.mitre.org/data/definitions/117.html"
+                }
+            ]
+        },
+        "pandas/_version.py": {
+            "code_path": "clone_repo/pandas/pandas/_version.py",
+            "code_name": "_version.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "325, 347",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 703",
+                    "line": "174, 656, 678, 684",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/__init__.py": {
+            "code_path": "clone_repo/pandas/pandas/__init__.py",
+            "code_name": "__init__.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "192, 193",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/compat/pickle_compat.py": {
+            "code_path": "clone_repo/pandas/pandas/compat/pickle_compat.py",
+            "code_name": "pickle_compat.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "49, 209",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/compat/_optional.py": {
+            "code_path": "clone_repo/pandas/pandas/compat/_optional.py",
+            "code_name": "_optional.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "155",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/core/apply.py": {
+            "code_path": "clone_repo/pandas/pandas/core/apply.py",
+            "code_name": "apply.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "587",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 476",
+                    "line": "1601, 1602",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                },
+                {
+                    "function_name": "Cwe 703",
+                    "line": "973",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/core/arraylike.py": {
+            "code_path": "clone_repo/pandas/pandas/core/arraylike.py",
+            "code_name": "arraylike.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "369",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "pandas/core/construction.py": {
+            "code_path": "clone_repo/pandas/pandas/core/construction.py",
+            "code_name": "construction.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "338",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/core/frame.py": {
+            "code_path": "clone_repo/pandas/pandas/core/frame.py",
+            "code_name": "frame.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "2939",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 703",
+                    "line": "8713",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/core/generic.py": {
+            "code_path": "clone_repo/pandas/pandas/core/generic.py",
+            "code_name": "generic.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "1353, 2200",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                },
+                {
+                    "function_name": "Cwe 703",
+                    "line": "4486, 4508, 6310",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/core/missing.py": {
+            "code_path": "clone_repo/pandas/pandas/core/missing.py",
+            "code_name": "missing.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "195",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/core/series.py": {
+            "code_path": "clone_repo/pandas/pandas/core/series.py",
+            "code_name": "series.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "3441, 3442",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/core/arrays/base.py": {
+            "code_path": "clone_repo/pandas/pandas/core/arrays/base.py",
+            "code_name": "base.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "2271",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "pandas/core/arrays/categorical.py": {
+            "code_path": "clone_repo/pandas/pandas/core/arrays/categorical.py",
+            "code_name": "categorical.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "1666",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "pandas/core/arrays/datetimelike.py": {
+            "code_path": "clone_repo/pandas/pandas/core/arrays/datetimelike.py",
+            "code_name": "datetimelike.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "788",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 703",
+                    "line": "687",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/core/arrays/datetimes.py": {
+            "code_path": "clone_repo/pandas/pandas/core/arrays/datetimes.py",
+            "code_name": "datetimes.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "139",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                },
+                {
+                    "function_name": "Cwe 703",
+                    "line": "2603",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/core/arrays/masked.py": {
+            "code_path": "clone_repo/pandas/pandas/core/arrays/masked.py",
+            "code_name": "masked.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "594",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 476",
+                    "line": "581, 1523",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/core/arrays/numpy_.py": {
+            "code_path": "clone_repo/pandas/pandas/core/arrays/numpy_.py",
+            "code_name": "numpy_.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "169",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 476",
+                    "line": "161",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/core/arrays/_ranges.py": {
+            "code_path": "clone_repo/pandas/pandas/core/arrays/_ranges.py",
+            "code_name": "_ranges.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "188",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/core/arrays/arrow/array.py": {
+            "code_path": "clone_repo/pandas/pandas/core/arrays/arrow/array.py",
+            "code_name": "array.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "671",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 476",
+                    "line": "1534, 1630",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                },
+                {
+                    "function_name": "Cwe 703",
+                    "line": "212, 332, 1026, 1074, 2050, 2102",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/core/arrays/sparse/array.py": {
+            "code_path": "clone_repo/pandas/pandas/core/arrays/sparse/array.py",
+            "code_name": "array.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "1681",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 476",
+                    "line": "1668",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/core/computation/align.py": {
+            "code_path": "clone_repo/pandas/pandas/core/computation/align.py",
+            "code_name": "align.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "191",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/core/computation/expressions.py": {
+            "code_path": "clone_repo/pandas/pandas/core/computation/expressions.py",
+            "code_name": "expressions.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "116",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/core/computation/ops.py": {
+            "code_path": "clone_repo/pandas/pandas/core/computation/ops.py",
+            "code_name": "ops.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "274, 290",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/core/computation/pytables.py": {
+            "code_path": "clone_repo/pandas/pandas/core/computation/pytables.py",
+            "code_name": "pytables.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "461, 487",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/core/dtypes/base.py": {
+            "code_path": "clone_repo/pandas/pandas/core/dtypes/base.py",
+            "code_name": "base.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "578",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/core/dtypes/cast.py": {
+            "code_path": "clone_repo/pandas/pandas/core/dtypes/cast.py",
+            "code_name": "cast.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "401, 1051",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                },
+                {
+                    "function_name": "Cwe 703",
+                    "line": "581",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/core/dtypes/common.py": {
+            "code_path": "clone_repo/pandas/pandas/core/dtypes/common.py",
+            "code_name": "common.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "1492, 1502, 1525",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/core/dtypes/dtypes.py": {
+            "code_path": "clone_repo/pandas/pandas/core/dtypes/dtypes.py",
+            "code_name": "dtypes.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "733, 980, 1200, 1909",
+                    "severity": "High",
+                    "content": "Potential Insecure regex pattern detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 703",
+                    "line": "1070, 2258",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/core/groupby/generic.py": {
+            "code_path": "clone_repo/pandas/pandas/core/groupby/generic.py",
+            "code_name": "generic.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "1454",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 703",
+                    "line": "1727, 1924",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/core/groupby/groupby.py": {
+            "code_path": "clone_repo/pandas/pandas/core/groupby/groupby.py",
+            "code_name": "groupby.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "1395",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 476",
+                    "line": "4975, 5050",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/core/groupby/ops.py": {
+            "code_path": "clone_repo/pandas/pandas/core/groupby/ops.py",
+            "code_name": "ops.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "253",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/core/indexes/api.py": {
+            "code_path": "clone_repo/pandas/pandas/core/indexes/api.py",
+            "code_name": "api.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "188",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/core/indexes/base.py": {
+            "code_path": "clone_repo/pandas/pandas/core/indexes/base.py",
+            "code_name": "base.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "931",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 476",
+                    "line": "4792, 4877",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                },
+                {
+                    "function_name": "Cwe 703",
+                    "line": "866, 3542, 4257, 4671, 4700, 6871",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/core/indexes/extension.py": {
+            "code_path": "clone_repo/pandas/pandas/core/indexes/extension.py",
+            "code_name": "extension.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "93",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "pandas/core/indexes/multi.py": {
+            "code_path": "clone_repo/pandas/pandas/core/indexes/multi.py",
+            "code_name": "multi.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "219",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 703",
+                    "line": "2414, 3214, 3226, 4115",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/core/interchange/column.py": {
+            "code_path": "clone_repo/pandas/pandas/core/interchange/column.py",
+            "code_name": "column.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "255, 260",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/core/internals/array_manager.py": {
+            "code_path": "clone_repo/pandas/pandas/core/internals/array_manager.py",
+            "code_name": "array_manager.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "1338",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "pandas/core/internals/concat.py": {
+            "code_path": "clone_repo/pandas/pandas/core/internals/concat.py",
+            "code_name": "concat.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "279",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "pandas/core/reshape/melt.py": {
+            "code_path": "clone_repo/pandas/pandas/core/reshape/melt.py",
+            "code_name": "melt.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "479",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/core/reshape/merge.py": {
+            "code_path": "clone_repo/pandas/pandas/core/reshape/merge.py",
+            "code_name": "merge.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "280",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/core/reshape/pivot.py": {
+            "code_path": "clone_repo/pandas/pandas/core/reshape/pivot.py",
+            "code_name": "pivot.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "158, 168, 358",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/core/reshape/reshape.py": {
+            "code_path": "clone_repo/pandas/pandas/core/reshape/reshape.py",
+            "code_name": "reshape.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "774",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/core/strings/accessor.py": {
+            "code_path": "clone_repo/pandas/pandas/core/strings/accessor.py",
+            "code_name": "accessor.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 079",
+                    "line": "3505",
+                    "severity": "High",
+                    "content": "Potential Reflected XSS vulnerability detected.",
+                    "url": "https://cwe.mitre.org/data/definitions/79.html"
+                },
+                {
+                    "function_name": "Cwe 703",
+                    "line": "455",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                },
+                {
+                    "function_name": "Cwe 918",
+                    "line": "3505",
+                    "severity": "High",
+                    "content": "Potential SSRF vulnerability detected.",
+                    "url": "https://cwe.mitre.org/data/definitions/918.html"
+                }
+            ]
+        },
+        "pandas/core/tools/datetimes.py": {
+            "code_path": "clone_repo/pandas/pandas/core/tools/datetimes.py",
+            "code_name": "datetimes.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "1220",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/core/tools/times.py": {
+            "code_path": "clone_repo/pandas/pandas/core/tools/times.py",
+            "code_name": "times.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "115, 166",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/core/util/numba_.py": {
+            "code_path": "clone_repo/pandas/pandas/core/util/numba_.py",
+            "code_name": "numba_.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "52, 58, 59",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/io/clipboards.py": {
+            "code_path": "clone_repo/pandas/pandas/io/clipboards.py",
+            "code_name": "clipboards.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "92",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/io/common.py": {
+            "code_path": "clone_repo/pandas/pandas/io/common.py",
+            "code_name": "common.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "77",
+                    "severity": "High",
+                    "content": "Potential Insecure regex pattern detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 476",
+                    "line": "385",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                },
+                {
+                    "function_name": "Cwe 703",
+                    "line": "427, 1161",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/io/html.py": {
+            "code_path": "clone_repo/pandas/pandas/io/html.py",
+            "code_name": "html.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "691",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 703",
+                    "line": "801, 810, 1028",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/io/orc.py": {
+            "code_path": "clone_repo/pandas/pandas/io/orc.py",
+            "code_name": "orc.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "114",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/io/parquet.py": {
+            "code_path": "clone_repo/pandas/pandas/io/parquet.py",
+            "code_name": "parquet.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "323",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 703",
+                    "line": "119",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/io/pickle.py": {
+            "code_path": "clone_repo/pandas/pandas/io/pickle.py",
+            "code_name": "pickle.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 502",
+                    "line": "111",
+                    "severity": "High",
+                    "content": "CWE-502",
+                    "url": "https://cwe.mitre.org/data/definitions/502.html"
+                }
+            ]
+        },
+        "pandas/io/pytables.py": {
+            "code_path": "clone_repo/pandas/pandas/io/pytables.py",
+            "code_name": "pytables.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "563, 2183, 2895, 2901, 5208",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 476",
+                    "line": "2275, 3848",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                },
+                {
+                    "function_name": "Cwe 703",
+                    "line": "615",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/io/sql.py": {
+            "code_path": "clone_repo/pandas/pandas/io/sql.py",
+            "code_name": "sql.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "1343",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/io/clipboard/__init__.py": {
+            "code_path": "clone_repo/pandas/pandas/io/clipboard/__init__.py",
+            "code_name": "__init__.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "296",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 703",
+                    "line": "591",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/io/excel/_base.py": {
+            "code_path": "clone_repo/pandas/pandas/io/excel/_base.py",
+            "code_name": "_base.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "1438, 1440, 1442",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "pandas/io/excel/_odfreader.py": {
+            "code_path": "clone_repo/pandas/pandas/io/excel/_odfreader.py",
+            "code_name": "_odfreader.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "206, 211, 214",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/io/excel/_odswriter.py": {
+            "code_path": "clone_repo/pandas/pandas/io/excel/_odswriter.py",
+            "code_name": "_odswriter.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "276, 280, 289",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 476",
+                    "line": "291, 294",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/io/excel/_openpyxl.py": {
+            "code_path": "clone_repo/pandas/pandas/io/excel/_openpyxl.py",
+            "code_name": "_openpyxl.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "143, 221, 290, 291, 335, 373",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/io/excel/_util.py": {
+            "code_path": "clone_repo/pandas/pandas/io/excel/_util.py",
+            "code_name": "_util.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "154",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "pandas/io/excel/_xlsxwriter.py": {
+            "code_path": "clone_repo/pandas/pandas/io/excel/_xlsxwriter.py",
+            "code_name": "_xlsxwriter.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "114",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "pandas/io/formats/console.py": {
+            "code_path": "clone_repo/pandas/pandas/io/formats/console.py",
+            "code_name": "console.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "92",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/io/formats/css.py": {
+            "code_path": "clone_repo/pandas/pandas/io/formats/css.py",
+            "code_name": "css.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "287",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/io/formats/excel.py": {
+            "code_path": "clone_repo/pandas/pandas/io/formats/excel.py",
+            "code_name": "excel.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "411, 416",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 079",
+                    "line": "278, 279, 280, 282",
+                    "severity": "High",
+                    "content": "Potential Reflected XSS vulnerability detected.",
+                    "url": "https://cwe.mitre.org/data/definitions/79.html"
+                },
+                {
+                    "function_name": "Cwe 476",
+                    "line": "262, 364, 369, 392, 398, 455",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                },
+                {
+                    "function_name": "Cwe 918",
+                    "line": "278, 279, 280, 282",
+                    "severity": "High",
+                    "content": "Potential SSRF vulnerability detected.",
+                    "url": "https://cwe.mitre.org/data/definitions/918.html"
+                }
+            ]
+        },
+        "pandas/io/formats/html.py": {
+            "code_path": "clone_repo/pandas/pandas/io/formats/html.py",
+            "code_name": "html.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "171, 227",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/io/formats/style.py": {
+            "code_path": "clone_repo/pandas/pandas/io/formats/style.py",
+            "code_name": "style.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "1086",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 079",
+                    "line": "2262, 3609",
+                    "severity": "High",
+                    "content": "Potential Reflected XSS vulnerability detected.",
+                    "url": "https://cwe.mitre.org/data/definitions/79.html"
+                },
+                {
+                    "function_name": "Cwe 918",
+                    "line": "2262",
+                    "severity": "High",
+                    "content": "Potential SSRF vulnerability detected.",
+                    "url": "https://cwe.mitre.org/data/definitions/918.html"
+                }
+            ]
+        },
+        "pandas/io/formats/style_render.py": {
+            "code_path": "clone_repo/pandas/pandas/io/formats/style_render.py",
+            "code_name": "style_render.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "360, 2248, 2250, 2262, 2414, 2483, 2484",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 079",
+                    "line": "73",
+                    "severity": "High",
+                    "content": "Jinja2 environment without autoescaping specified",
+                    "url": "https://cwe.mitre.org/data/definitions/79.html"
+                }
+            ]
+        },
+        "pandas/io/json/_json.py": {
+            "code_path": "clone_repo/pandas/pandas/io/json/_json.py",
+            "code_name": "_json.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "1277, 1285, 1295, 1303, 1335, 1359",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/io/json/_table_schema.py": {
+            "code_path": "clone_repo/pandas/pandas/io/json/_table_schema.py",
+            "code_name": "_table_schema.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "226",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "pandas/io/parsers/arrow_parser_wrapper.py": {
+            "code_path": "clone_repo/pandas/pandas/io/parsers/arrow_parser_wrapper.py",
+            "code_name": "arrow_parser_wrapper.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "255",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/io/parsers/c_parser_wrapper.py": {
+            "code_path": "clone_repo/pandas/pandas/io/parsers/c_parser_wrapper.py",
+            "code_name": "c_parser_wrapper.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "199",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/io/parsers/python_parser.py": {
+            "code_path": "clone_repo/pandas/pandas/io/parsers/python_parser.py",
+            "code_name": "python_parser.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "110",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "pandas/io/parsers/readers.py": {
+            "code_path": "clone_repo/pandas/pandas/io/parsers/readers.py",
+            "code_name": "readers.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "1614, 1719, 1758",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 703",
+                    "line": "2100, 2122, 2127",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/io/sas/sasreader.py": {
+            "code_path": "clone_repo/pandas/pandas/io/sas/sasreader.py",
+            "code_name": "sasreader.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "141, 143",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "pandas/io/sas/sas_xport.py": {
+            "code_path": "clone_repo/pandas/pandas/io/sas/sas_xport.py",
+            "code_name": "sas_xport.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "297",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 703",
+                    "line": "377",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/plotting/_core.py": {
+            "code_path": "clone_repo/pandas/pandas/plotting/_core.py",
+            "code_name": "_core.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "953, 1891",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                },
+                {
+                    "function_name": "Cwe 703",
+                    "line": "1013, 1905",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/plotting/_matplotlib/boxplot.py": {
+            "code_path": "clone_repo/pandas/pandas/plotting/_matplotlib/boxplot.py",
+            "code_name": "boxplot.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "175, 176, 177, 178",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/plotting/_matplotlib/converter.py": {
+            "code_path": "clone_repo/pandas/pandas/plotting/_matplotlib/converter.py",
+            "code_name": "converter.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "328, 442",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/plotting/_matplotlib/core.py": {
+            "code_path": "clone_repo/pandas/pandas/plotting/_matplotlib/core.py",
+            "code_name": "core.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "272, 967, 969",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 476",
+                    "line": "1064",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                },
+                {
+                    "function_name": "Cwe 703",
+                    "line": "1062",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/plotting/_matplotlib/hist.py": {
+            "code_path": "clone_repo/pandas/pandas/plotting/_matplotlib/hist.py",
+            "code_name": "hist.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "469",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "pandas/plotting/_matplotlib/misc.py": {
+            "code_path": "clone_repo/pandas/pandas/plotting/_matplotlib/misc.py",
+            "code_name": "misc.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "471",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "pandas/plotting/_matplotlib/timeseries.py": {
+            "code_path": "clone_repo/pandas/pandas/plotting/_matplotlib/timeseries.py",
+            "code_name": "timeseries.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "65",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "pandas/plotting/_matplotlib/__init__.py": {
+            "code_path": "clone_repo/pandas/pandas/plotting/_matplotlib/__init__.py",
+            "code_name": "__init__.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "65",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/tests/test_downstream.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/test_downstream.py",
+            "code_name": "test_downstream.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "182, 185, 205",
+                    "severity": "Medium",
+                    "content": "CVE-2014-2525",
+                    "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-2525"
+                }
+            ]
+        },
+        "pandas/tests/test_expressions.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/test_expressions.py",
+            "code_name": "test_expressions.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "464",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/tests/test_nanops.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/test_nanops.py",
+            "code_name": "test_nanops.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "421",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/tests/test_register_accessor.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/test_register_accessor.py",
+            "code_name": "test_register_accessor.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "37",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/tests/test_sorting.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/test_sorting.py",
+            "code_name": "test_sorting.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "291",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/tests/arrays/test_datetimes.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/arrays/test_datetimes.py",
+            "code_name": "test_datetimes.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "732",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/tests/arrays/sparse/test_arithmetics.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/arrays/sparse/test_arithmetics.py",
+            "code_name": "test_arithmetics.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "511",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/tests/arrays/string_/test_string_arrow.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/arrays/string_/test_string_arrow.py",
+            "code_name": "test_string_arrow.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 502",
+                    "line": "253, 256",
+                    "severity": "High",
+                    "content": "CWE-502",
+                    "url": "https://cwe.mitre.org/data/definitions/502.html"
+                }
+            ]
+        },
+        "pandas/tests/computation/test_eval.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/computation/test_eval.py",
+            "code_name": "test_eval.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "1573",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 094",
+                    "line": "299",
+                    "severity": "High",
+                    "content": "Potential CWE-094-CodeInjection vulnerability",
+                    "url": "https://cwe.mitre.org/data/definitions/094.html"
+                }
+            ]
+        },
+        "pandas/tests/config/test_localization.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/config/test_localization.py",
+            "code_name": "test_localization.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "150",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/tests/copy_view/test_astype.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/copy_view/test_astype.py",
+            "code_name": "test_astype.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 502",
+                    "line": "137",
+                    "severity": "High",
+                    "content": "CWE-502",
+                    "url": "https://cwe.mitre.org/data/definitions/502.html"
+                }
+            ]
+        },
+        "pandas/tests/copy_view/test_methods.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/copy_view/test_methods.py",
+            "code_name": "test_methods.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "1690",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/tests/extension/test_arrow.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/extension/test_arrow.py",
+            "code_name": "test_arrow.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "1958",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                },
+                {
+                    "function_name": "Cwe 502",
+                    "line": "1551, 1554, 2888",
+                    "severity": "High",
+                    "content": "CWE-502",
+                    "url": "https://cwe.mitre.org/data/definitions/502.html"
+                }
+            ]
+        },
+        "pandas/tests/extension/base/getitem.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/extension/base/getitem.py",
+            "code_name": "getitem.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 079",
+                    "line": "320",
+                    "severity": "High",
+                    "content": "Potential Reflected XSS vulnerability detected.",
+                    "url": "https://cwe.mitre.org/data/definitions/79.html"
+                },
+                {
+                    "function_name": "Cwe 476",
+                    "line": "311, 315, 325, 329",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                },
+                {
+                    "function_name": "Cwe 918",
+                    "line": "320",
+                    "severity": "High",
+                    "content": "Potential SSRF vulnerability detected.",
+                    "url": "https://cwe.mitre.org/data/definitions/918.html"
+                }
+            ]
+        },
+        "pandas/tests/extension/decimal/array.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/extension/decimal/array.py",
+            "code_name": "array.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "141",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "pandas/tests/extension/json/test_json.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/extension/json/test_json.py",
+            "code_name": "test_json.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "426",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/tests/frame/test_query_eval.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/frame/test_query_eval.py",
+            "code_name": "test_query_eval.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 094",
+                    "line": "117, 120",
+                    "severity": "High",
+                    "content": "Potential CWE-094-CodeInjection vulnerability",
+                    "url": "https://cwe.mitre.org/data/definitions/094.html"
+                }
+            ]
+        },
+        "pandas/tests/frame/test_reductions.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/frame/test_reductions.py",
+            "code_name": "test_reductions.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "284",
+                    "severity": "High",
+                    "content": "Potential Insecure regex pattern detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "pandas/tests/frame/indexing/test_get.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/frame/indexing/test_get.py",
+            "code_name": "test_get.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "9",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/tests/frame/methods/test_nlargest.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/frame/methods/test_nlargest.py",
+            "code_name": "test_nlargest.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "87",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "pandas/tests/frame/methods/test_rank.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/frame/methods/test_rank.py",
+            "code_name": "test_rank.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "249",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "pandas/tests/frame/methods/test_to_csv.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/frame/methods/test_to_csv.py",
+            "code_name": "test_to_csv.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "305, 336",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/tests/generic/test_finalize.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/generic/test_finalize.py",
+            "code_name": "test_finalize.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "381",
+                    "severity": "High",
+                    "content": "Potential Insecure regex pattern detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "pandas/tests/groupby/test_missing.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/groupby/test_missing.py",
+            "code_name": "test_missing.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "139",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/tests/groupby/test_reductions.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/groupby/test_reductions.py",
+            "code_name": "test_reductions.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "929",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "pandas/tests/groupby/aggregate/test_aggregate.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/groupby/aggregate/test_aggregate.py",
+            "code_name": "test_aggregate.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "1298",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "pandas/tests/groupby/transform/test_transform.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/groupby/transform/test_transform.py",
+            "code_name": "test_transform.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "1655",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "pandas/tests/indexes/test_common.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/indexes/test_common.py",
+            "code_name": "test_common.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "224",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/tests/indexes/datetimes/test_constructors.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/indexes/datetimes/test_constructors.py",
+            "code_name": "test_constructors.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "200",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "pandas/tests/indexes/datetimes/methods/test_tz_localize.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/indexes/datetimes/methods/test_tz_localize.py",
+            "code_name": "test_tz_localize.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "35",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/tests/indexing/test_iloc.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/indexing/test_iloc.py",
+            "code_name": "test_iloc.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "792",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/tests/io/conftest.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/io/conftest.py",
+            "code_name": "conftest.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 400",
+                    "line": "104",
+                    "severity": "Medium",
+                    "content": "CWE-400",
+                    "url": "https://cwe.mitre.org/data/definitions/400.html"
+                },
+                {
+                    "function_name": "Cwe 476",
+                    "line": "104",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                },
+                {
+                    "function_name": "Cwe 703",
+                    "line": "108",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/tests/io/generate_legacy_storage_files.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/io/generate_legacy_storage_files.py",
+            "code_name": "generate_legacy_storage_files.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 502",
+                    "line": "314",
+                    "severity": "High",
+                    "content": "CWE-502",
+                    "url": "https://cwe.mitre.org/data/definitions/502.html"
+                }
+            ]
+        },
+        "pandas/tests/io/test_common.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/io/test_common.py",
+            "code_name": "test_common.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 502",
+                    "line": "650",
+                    "severity": "High",
+                    "content": "CWE-502",
+                    "url": "https://cwe.mitre.org/data/definitions/502.html"
+                },
+                {
+                    "function_name": "Cwe 703",
+                    "line": "52",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/tests/io/test_compression.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/io/test_compression.py",
+            "code_name": "test_compression.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "116",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "pandas/tests/io/test_parquet.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/io/test_parquet.py",
+            "code_name": "test_parquet.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "208",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 476",
+                    "line": "294, 295",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/tests/io/test_pickle.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/io/test_pickle.py",
+            "code_name": "test_pickle.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "467",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 502",
+                    "line": "164, 462",
+                    "severity": "High",
+                    "content": "CWE-502",
+                    "url": "https://cwe.mitre.org/data/definitions/502.html"
+                }
+            ]
+        },
+        "pandas/tests/io/test_sql.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/io/test_sql.py",
+            "code_name": "test_sql.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "1017, 1104, 1123, 1151, 1181, 1227, 1236, 1511, 1513, 1515, 1523, 1542, 1588, 1700, 1711, 1832, 1886, 1921, 1948, 1968, 1974, 2082, 2100, 2115, 2129, 2153, 2165, 2173, 2182, 2284, 2296, 2523, 2697, 2781, 2841, 2852, 2932, 2956, 2996, 3074, 3379, 3543, 3593, 3700",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 703",
+                    "line": "2681, 3158",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/tests/io/excel/test_readers.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/io/excel/test_readers.py",
+            "code_name": "test_readers.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "1747",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/tests/io/formats/test_format.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/io/formats/test_format.py",
+            "code_name": "test_format.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "484",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/tests/io/formats/test_to_csv.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/io/formats/test_to_csv.py",
+            "code_name": "test_to_csv.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "571",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/tests/io/formats/style/test_html.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/io/formats/style/test_html.py",
+            "code_name": "test_html.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 079",
+                    "line": "22",
+                    "severity": "High",
+                    "content": "Jinja2 environment without autoescaping specified",
+                    "url": "https://cwe.mitre.org/data/definitions/79.html"
+                }
+            ]
+        },
+        "pandas/tests/io/json/test_pandas.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/io/json/test_pandas.py",
+            "code_name": "test_pandas.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "61, 77, 83",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/tests/io/json/test_ujson.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/io/json/test_ujson.py",
+            "code_name": "test_ujson.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "824",
+                    "severity": "High",
+                    "content": "Potential Insecure regex pattern detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "pandas/tests/io/parser/test_comment.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/io/parser/test_comment.py",
+            "code_name": "test_comment.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "55",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "pandas/tests/io/parser/test_encoding.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/io/parser/test_encoding.py",
+            "code_name": "test_encoding.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "330",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 703",
+                    "line": "307",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/tests/io/parser/test_parse_dates.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/io/parser/test_parse_dates.py",
+            "code_name": "test_parse_dates.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "974",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "pandas/tests/io/parser/test_textreader.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/io/parser/test_textreader.py",
+            "code_name": "test_textreader.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "195, 224",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "pandas/tests/io/parser/test_unsupported.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/io/parser/test_unsupported.py",
+            "code_name": "test_unsupported.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "161, 164",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "pandas/tests/io/parser/common/test_file_buffer_url.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/io/parser/common/test_file_buffer_url.py",
+            "code_name": "test_file_buffer_url.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "124",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/tests/io/parser/common/test_iterator.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/io/parser/common/test_iterator.py",
+            "code_name": "test_iterator.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "129",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "pandas/tests/io/pytables/common.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/io/pytables/common.py",
+            "code_name": "common.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "22, 50",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/tests/io/pytables/test_keys.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/io/pytables/test_keys.py",
+            "code_name": "test_keys.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "61",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/tests/io/pytables/test_put.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/io/pytables/test_put.py",
+            "code_name": "test_put.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "221",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/tests/io/pytables/test_retain_attributes.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/io/pytables/test_retain_attributes.py",
+            "code_name": "test_retain_attributes.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "29",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/tests/io/pytables/test_round_trip.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/io/pytables/test_round_trip.py",
+            "code_name": "test_round_trip.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "181, 185, 535, 541",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/tests/io/pytables/test_select.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/io/pytables/test_select.py",
+            "code_name": "test_select.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "1044",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/tests/io/pytables/test_store.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/io/pytables/test_store.py",
+            "code_name": "test_store.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "291",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 476",
+                    "line": "290",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                },
+                {
+                    "function_name": "Cwe 703",
+                    "line": "45",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/tests/io/sas/test_sas7bdat.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/io/sas/test_sas7bdat.py",
+            "code_name": "test_sas7bdat.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "129",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/tests/plotting/common.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/plotting/common.py",
+            "code_name": "common.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "532",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/tests/plotting/test_converter.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/plotting/test_converter.py",
+            "code_name": "test_converter.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "42",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/tests/plotting/test_datetimelike.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/plotting/test_datetimelike.py",
+            "code_name": "test_datetimelike.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 502",
+                    "line": "1752",
+                    "severity": "High",
+                    "content": "CWE-502",
+                    "url": "https://cwe.mitre.org/data/definitions/502.html"
+                }
+            ]
+        },
+        "pandas/tests/resample/test_base.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/resample/test_base.py",
+            "code_name": "test_base.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "372",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/tests/scalar/test_na_scalar.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/scalar/test_na_scalar.py",
+            "code_name": "test_na_scalar.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 502",
+                    "line": "298",
+                    "severity": "High",
+                    "content": "CWE-502",
+                    "url": "https://cwe.mitre.org/data/definitions/502.html"
+                }
+            ]
+        },
+        "pandas/tests/scalar/timestamp/methods/test_tz_localize.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/scalar/timestamp/methods/test_tz_localize.py",
+            "code_name": "test_tz_localize.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "73",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/tests/series/indexing/test_get.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/series/indexing/test_get.py",
+            "code_name": "test_get.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 079",
+                    "line": "192",
+                    "severity": "High",
+                    "content": "Potential Reflected XSS vulnerability detected.",
+                    "url": "https://cwe.mitre.org/data/definitions/79.html"
+                },
+                {
+                    "function_name": "Cwe 476",
+                    "line": "43, 99, 107, 111, 114, 183, 187, 197, 201, 237",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                },
+                {
+                    "function_name": "Cwe 918",
+                    "line": "192",
+                    "severity": "High",
+                    "content": "Potential SSRF vulnerability detected.",
+                    "url": "https://cwe.mitre.org/data/definitions/918.html"
+                }
+            ]
+        },
+        "pandas/tests/series/methods/test_rank.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/series/methods/test_rank.py",
+            "code_name": "test_rank.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "356",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "pandas/tests/strings/test_split_partition.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/strings/test_split_partition.py",
+            "code_name": "test_split_partition.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "64",
+                    "severity": "High",
+                    "content": "Potential Insecure regex pattern detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 476",
+                    "line": "683, 690, 700, 712, 721, 725, 732",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/tests/strings/test_strings.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/strings/test_strings.py",
+            "code_name": "test_strings.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "505, 708, 711",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/tests/tools/test_to_numeric.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/tools/test_to_numeric.py",
+            "code_name": "test_to_numeric.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "869, 893, 933",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "pandas/tests/tseries/offsets/test_common.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/tseries/offsets/test_common.py",
+            "code_name": "test_common.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "159, 163",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/tests/tslibs/test_liboffsets.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/tslibs/test_liboffsets.py",
+            "code_name": "test_liboffsets.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "164",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/tests/util/test_assert_almost_equal.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/util/test_assert_almost_equal.py",
+            "code_name": "test_assert_almost_equal.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "52",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/tests/util/test_assert_series_equal.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/util/test_assert_series_equal.py",
+            "code_name": "test_assert_series_equal.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "51",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/tests/window/test_groupby.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/window/test_groupby.py",
+            "code_name": "test_groupby.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "907",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "pandas/tests/window/test_rolling.py": {
+            "code_path": "clone_repo/pandas/pandas/tests/window/test_rolling.py",
+            "code_name": "test_rolling.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "973",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "pandas/tseries/holiday.py": {
+            "code_path": "clone_repo/pandas/pandas/tseries/holiday.py",
+            "code_name": "holiday.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "518, 527",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/util/_decorators.py": {
+            "code_path": "clone_repo/pandas/pandas/util/_decorators.py",
+            "code_name": "_decorators.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "246",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 476",
+                    "line": "192",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/util/version/__init__.py": {
+            "code_path": "clone_repo/pandas/pandas/util/version/__init__.py",
+            "code_name": "__init__.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "261",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "pandas/_config/display.py": {
+            "code_path": "clone_repo/pandas/pandas/_config/display.py",
+            "code_name": "display.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "28, 38",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/_config/localization.py": {
+            "code_path": "clone_repo/pandas/pandas/_config/localization.py",
+            "code_name": "localization.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "165",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "pandas/_testing/contexts.py": {
+            "code_path": "clone_repo/pandas/pandas/_testing/contexts.py",
+            "code_name": "contexts.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "90",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                },
+                {
+                    "function_name": "Cwe 703",
+                    "line": "85",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "scripts/generate_pip_deps_from_conda.py": {
+            "code_path": "clone_repo/pandas/scripts/generate_pip_deps_from_conda.py",
+            "code_name": "generate_pip_deps_from_conda.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "116",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                }
+            ]
+        },
+        "scripts/validate_docstrings.py": {
+            "code_path": "clone_repo/pandas/scripts/validate_docstrings.py",
+            "code_name": "validate_docstrings.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 476",
+                    "line": "360",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "scripts/validate_min_versions_in_sync.py": {
+            "code_path": "clone_repo/pandas/scripts/validate_min_versions_in_sync.py",
+            "code_name": "validate_min_versions_in_sync.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "92, 94, 96, 98, 100, 120, 127, 157, 217, 224, 226, 228, 231",
+                    "severity": "High",
+                    "content": "Potential insecure URL substring check detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 476",
+                    "line": "203",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                }
+            ]
+        },
+        "scripts/validate_unwanted_patterns.py": {
+            "code_path": "clone_repo/pandas/scripts/validate_unwanted_patterns.py",
+            "code_name": "validate_unwanted_patterns.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 703",
+                    "line": "138, 191",
+                    "severity": "LOW",
+                    "content": "CWE-703",
+                    "url": "https://cwe.mitre.org/data/definitions/703.html"
+                }
+            ]
+        },
+        "web/pandas_web.py": {
+            "code_path": "clone_repo/pandas/web/pandas_web.py",
+            "code_name": "pandas_web.py",
+            "issues": [
+                {
+                    "function_name": "Cwe 020",
+                    "line": "98",
+                    "severity": "High",
+                    "content": "Potential Insecure regex pattern detected",
+                    "url": "https://cwe.mitre.org/data/definitions/20.html"
+                },
+                {
+                    "function_name": "Cwe 079",
+                    "line": "179, 190, 218, 225, 319, 327, 452",
+                    "severity": "High",
+                    "content": "Potential Reflected XSS vulnerability detected.",
+                    "url": "https://cwe.mitre.org/data/definitions/79.html"
+                },
+                {
+                    "function_name": "Cwe 476",
+                    "line": "179, 190, 218, 225, 319, 327",
+                    "severity": "Low",
+                    "content": "Potential null dereference detected.",
+                    "url": "https://owasp.org/www-project-top-ten/2017/A1_2017-Injection"
+                },
+                {
+                    "function_name": "Cwe 918",
+                    "line": "179, 190, 218, 225, 319, 327",
+                    "severity": "High",
+                    "content": "Potential SSRF vulnerability detected.",
+                    "url": "https://cwe.mitre.org/data/definitions/918.html"
+                }
+            ]
+        }
+    }
+}
